@@ -1,0 +1,25 @@
+html
+	head
+		meta(charset = 'utf-8')
+		title user page
+		link(rel = 'stylesheet' href = '/stylesheet/user.css')
+		script(src = '/js/jquery-3.2.1.js')
+		script(src = '/js/user.js')
+	body
+		div#err #{errtext}
+		div#main-container
+			h1 USER PAGE
+			div#info-bar
+				p username: 
+				p.info #{username}
+				br
+				p id: 
+				p.info #{id}
+				br
+				p tel: 
+				p.info #{tel}
+				br
+				p email: 
+				p.info #{email}
+				br
+			button(id = 'logout') LOGOUT

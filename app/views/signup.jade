@@ -1,0 +1,31 @@
+html
+	head
+		meta(charset = 'utf-8')
+		title sign up
+		script(src = '/js/jquery-3.2.1.js')
+		script(src = '/js/signup.js')
+		link(rel = 'stylesheet' href = '/stylesheet/signup.css')
+	body
+		div#failbox sdfasdfadfasdf
+		div#main-container
+			h1 sign up page
+			a#tips click it to log in
+			form(method = 'post' id = 'signform' onsubmit = 'return false;')
+				p username: 
+				input(name='username' id = 'username_')
+				br
+				p password:
+				input(name = 'password' id = 'password_' type = 'password')
+				p password-repeat:
+				input(name = 'password_repeat' id = 'password_repeat' type = 'password')
+				p id:
+				input(name='id' id = 'id_')
+				br
+				p tel:
+				input(name = 'tel' id = 'tel_')
+				br
+				p e-mail: 
+				input(name="email" id = "email_" type = "text")
+				br
+				input(type = 'submit' id = 'sub' value = 'PRESS TO SIGN UP')
+				input(type = 'reset' id = 'reset' value = 'PRESS TO RESET')
