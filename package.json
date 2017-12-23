@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "jade": "^1.11.0",
+    "mongodb": "^3.0.0-rc0",
+    "mongoose": "^4.13.7",
+    "morgan": "^1.9.0",
+    "serve-favicon": "^2.4.5"
+  },
+  "name": "express-based-signin",
+  "description": "",
+  "version": "1.0.0",
+  "main": "bin/www",
+  "bin": {
+    "express-based-signin": "www.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
